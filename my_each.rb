@@ -17,8 +17,7 @@ end
 
  # code here
  
-["Bobby", "Esther", "Bryan"]
-list(["Bobby", "Esther", "Bryan"]) do |word|
-    return "Hi, #{word}"
-  
+people = ["Esther", "Bobby", "Bryan"]
+list(people) do |i|
+  puts i 
 end 
