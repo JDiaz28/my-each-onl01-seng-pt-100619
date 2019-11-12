@@ -1,6 +1,6 @@
 # put argument(s) here
 
-def list(people)
+def my_each(people)
   if block_given?
   i = 0 
 
@@ -18,6 +18,6 @@ end
  # code here
  
 people = ["Esther", "Bobby", "Bryan"]
-list(people) do |i|
+my_each(people) do |i|
   return i 
 end 
