@@ -19,5 +19,5 @@ end
  
 people = ["Esther", "Bobby", "Bryan"]
 list(people) do |i|
-  puts i 
+  return i 
 end 
